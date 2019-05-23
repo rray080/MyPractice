@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         //call for ArithmeticActivity
         btnArithmeticActivity.setOnClickListener { lunchArithmeticActivity() }
+        btnLifeCycleActivity.setOnClickListener { lunchLifeCycle(it) }
+        btnCheckRadio.setOnClickListener { lunchCheckRadio(it) }
     }
 
     fun toastMe(view: View){
@@ -39,5 +41,15 @@ class MainActivity : AppCompatActivity() {
     private fun lunchArithmeticActivity(){
         Log.d("MainActivity", "Arithmetic Activity Button Clicked")
         startActivity(Intent(this, ArithmeticActivity::class.java))
+    }
+
+    private fun lunchLifeCycle(view: View){
+        Log.d("MainActivity", "Life Cycle Button Clicked")
+        startActivity(Intent(this, LifeCycleActivity::class.java))
+    }
+
+    private fun lunchCheckRadio(view: View){
+        Log.d("MainActivity", "Life Cycle Button Clicked")
+        startActivity(Intent(this, RadioCheckActivity::class.java))
     }
 }

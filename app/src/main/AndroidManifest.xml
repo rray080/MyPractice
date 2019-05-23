@@ -9,9 +9,27 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ArithmeticActivity"
-                  android:label="@string/arithmeticOperation"
+        <activity android:name=".RadioCheckActivity"
+                  android:label="@string/RadioCheckActivity"
                   android:parentActivityName=".MainActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity">
+            </meta-data>
+        </activity>
+        <activity
+                android:name=".LifeCycleActivity"
+                android:label="@string/LifeCycleActivity"
+                android:parentActivityName=".MainActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity">
+            </meta-data>
+        </activity>
+        <activity
+                android:name=".ArithmeticActivity"
+                android:label="@string/arithmeticOperation"
+                android:parentActivityName=".MainActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".MainActivity">

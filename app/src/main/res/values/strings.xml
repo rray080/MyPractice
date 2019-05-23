@@ -16,4 +16,9 @@
     <string name="txtEnterNo">Enter No</string>
     <string name="arithmeticOperation">Arithmetic Operation</string>
     <string name="btnArithmeticActivity">Arithmetic Activity</string>
+    <string name="hello">Hello World !</string>
+    <string name="btnLifeCycle">Android Life Cycle</string>
+    <string name="LifeCycleActivity">Android Life Cycle</string>
+    <string name="RadioCheckActivity">Radio and Checkbox Demo</string>
+    <string name="btnCheckRadio">Checkbox Radio</string>
 </resources>
