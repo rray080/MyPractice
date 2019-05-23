@@ -27,11 +27,37 @@
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintVertical_bias="1.0" android:textColor="@color/btnColor" android:textStyle="bold"
-            android:textSize="30sp" android:onClick="countUp"/>
+            android:textSize="28sp" android:onClick="countUp"/>
+    <Button
+            android:text="@string/mainBtnRoll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRollActivity"
+            android:textStyle="bold" android:textColor="@color/btnColor"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtWelcome"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.352" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:freezesText="true"
+            android:textSize="28sp" app:layout_constraintHorizontal_bias="0.4" android:onClick="luncherDiceRoller"/>
+    <Button
+            android:text="@string/btnArithmeticActivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnArithmeticActivity"
+            android:textStyle="bold" android:textColor="@color/btnColor"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/txtWelcome"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.662" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:freezesText="true"
+            android:textSize="28sp" app:layout_constraintHorizontal_bias="0.4" android:onClick="luncherDiceRoller"/>
     <Button
             android:text="@string/login"
-            android:layout_width="410dp"
-            android:layout_height="63dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:id="@+id/btnLogin"
             android:textStyle="bold" android:textColor="@color/btnColor"
             android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +66,7 @@
             android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.029" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp" android:freezesText="true"
-            android:textSize="30sp" app:layout_constraintHorizontal_bias="0.533"/>
+            android:textSize="28sp" app:layout_constraintHorizontal_bias="0.533"/>
     <TextView
             android:text="@string/countInitialValue"
             android:layout_width="276dp"
